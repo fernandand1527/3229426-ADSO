@@ -1,4 +1,8 @@
 function fncalcular() {
+
+    function limpiarErrores() {
+
+    console.log("limpiando errores");
     let numero1 =parseInt(document.getElementById("txtnumero1").value); 
     let numero2 = parseInt(document.getElementById("txtnumero2").value); 
     let operacion = document.getElementById("operacion").value; 
